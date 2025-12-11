@@ -8,8 +8,8 @@ const loader = document.getElementById("loader");
 // Fetch Data
 async function init() {
   try {
-    // 5-second loader duration as requested
-    await new Promise((r) => setTimeout(r, 5000));
+    // 7.5-second loader duration as requested (long breath)
+    await new Promise((r) => setTimeout(r, 7500));
 
     const response = await fetch("projects.json");
     if (!response.ok) throw new Error("Network response was not ok");
@@ -21,6 +21,7 @@ async function init() {
     cards.forEach((el) => observer.observe(el));
 
     loader.classList.add("hidden");
+    projectsSection.classList.add("visible"); // Fade in projects
 
     // Polished horizontal scroll via vertical wheel
     let scrollTimeout;
@@ -179,10 +180,8 @@ function renderProjects() {
                   ${(project.techStack || [])
                     .map(
                       (tech) => `
-                      <div class="tech-icon" data-tooltip="${
-                        tech.tooltip
-                      }" style="color: ${getAccentColor(project.id)}">
-                          ${tech.name.substring(0, 2).toUpperCase()}
+                      <div class="tech-icon" data-tooltip="${tech.name}">
+                          <img src="${tech.icon}" alt="${tech.name}" class="tech-svg" />
                       </div>
                   `
                     )
