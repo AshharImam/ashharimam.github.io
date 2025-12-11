@@ -51,9 +51,9 @@ body {
   font-family: "Inter", sans-serif;
   background-color: var(--bg-color);
   color: var(--text-primary);
-  overflow-x: hidden;
+  overflow: hidden; /* Prevent all body scrolling */
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh; /* Fixed height to prevent vertical overflow */
 }
 
 /* Background Animation */
@@ -191,8 +191,8 @@ body {
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  scroll-behavior: auto; /* Changed from smooth to auto for immediate response */
+  /* scroll-snap-type removed to allow programmatic scrolling */
   scrollbar-width: none; /* Hide scrollbar Firefox */
 }
 
@@ -236,7 +236,7 @@ body {
   height: auto;
   aspect-ratio: 880 / 1832; /* Prevent collapse if image missing */
   transform: perspective(1000px) rotateY(-10deg);
-  transition: transform 0.5s ease;
+  transition: transform 0.2s ease-out; /* Smooth, snappy response */
 }
 
 .project-section-wrapper:hover .mockup-container {
