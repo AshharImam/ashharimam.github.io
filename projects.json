@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Neon Finance",
+    "description": "A futuristic fintech dashboard visualizing crypto assets with real-time WebSocket data. Features include live price tracking, portfolio analytics, and a customizable dark mode interface.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /></svg>",
+    "techStack": [
+      { "name": "React", "tooltip": "Frontend Library" },
+      { "name": "D3.js", "tooltip": "Data Visualization" },
+      { "name": "Firebase", "tooltip": "Backend as a Service" },
+      { "name": "Node.js", "tooltip": "Server Runtime" }
+    ],
+    "stats": { "stars": "2.4k", "users": "15k", "latency": "12ms" },
+    "colors": ["#00f2ff", "#a855f7", "#ff00ff"]
+  },
+  {
+    "id": 2,
+    "title": "Cyber Commerce",
+    "description": "Headless e-commerce platform built for high-performance scale and glassmorphism UI. Includes advanced filtering, search, and a seamless checkout experience.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z' /></svg>",
+    "techStack": [
+      { "name": "Next.js", "tooltip": "React Framework" },
+      { "name": "Shopify", "tooltip": "Headless API" },
+      { "name": "Tailwind", "tooltip": "CSS Framework" },
+      { "name": "Redis", "tooltip": "Caching" }
+    ],
+    "stats": { "stars": "890", "users": "5k+", "uptime": "99.9%" },
+    "colors": ["#10b981", "#3b82f6", "#6366f1"]
+  },
+  {
+    "id": 3,
+    "title": "Aether Chat",
+    "description": "Decentralized messaging protocol focusing on privacy and zero-knowledge encryption. Ensures secure communication without central servers.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z' /></svg>",
+    "techStack": [
+      { "name": "Rust", "tooltip": "Core Logic" },
+      { "name": "WASM", "tooltip": "Web Assembly" },
+      { "name": "Signal", "tooltip": "Encryption Protocol" },
+      { "name": "React", "tooltip": "UI Library" }
+    ],
+    "stats": { "stars": "3.1k", "users": "40k", "peers": "1250" },
+    "colors": ["#ff00ff", "#ec4899", "#f43f5e"]
+  },
+  {
+    "id": 4,
+    "title": "Orbital Dash",
+    "description": "Real-time multiplayer space racing game running entirely in the browser with WebGL. Features procedural generation and physics-based movement.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M13 10V3L4 14h7v7l9-11h-7z' /></svg>",
+    "techStack": [
+      { "name": "Three.js", "tooltip": "3D Library" },
+      { "name": "Socket.io", "tooltip": "Real-time Comm" },
+      { "name": "Express", "tooltip": "Backend" },
+      { "name": "WebGL", "tooltip": "Graphics API" }
+    ],
+    "stats": { "stars": "5.6k", "users": "100k", "fps": "60+" },
+    "colors": ["#ff6b00", "#f59e0b", "#fbbf24"]
+  }
+]

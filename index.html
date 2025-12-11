@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashhar | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Ashhar - Full Stack Developer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="loader-content">
+        <h1 class="loader-title">Ashhar Imam</h1>
+        <p class="loader-subtitle">Mobile App Expert | Full Stack Developer</p>
+      </div>
+      <div
+        class="loader-orb"
+        style="
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          filter: blur(80px);
+          opacity: 0.3;
+          z-index: 1;
+        "
+      ></div>
+    </div>
+
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <!-- Hero Section Removed -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <!-- Navigation Arrows -->
+      <div class="nav-arrow nav-prev glass" id="prevBtn" hidden>
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M15 19L8 12L15 5"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div class="nav-arrow nav-next glass" id="nextBtn">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M9 5L16 12L9 19"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+
+      <div id="projects-container">
+        <!-- Projects will be injected here via JS -->
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
