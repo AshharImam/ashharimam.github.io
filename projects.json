@@ -1,92 +1,380 @@
 [
   {
     "id": 1,
-    "title": "FinFlow",
-    "description": "AI-powered financial management app with smart budgeting, expense tracking, and investment portfolio analytics. Features real-time sync across devices and intelligent spending insights.",
-    "mobileScreenshot": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1000&auto=format&fit=crop",
-    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /></svg>",
+    "title": "Dressifit",
+    "description": "E-commerce app for women's fashion with curated collections for every occasion. Shop comfortable and sexy outfits with personalized recommendations and easy sizing.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z' /></svg>",
     "techStack": [
       {
         "name": "React Native",
         "icon": "https://cdn.simpleicons.org/react/61DAFB"
       },
       {
-        "name": "TypeScript",
-        "icon": "https://cdn.simpleicons.org/typescript/3178C6"
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
       },
       {
-        "name": "Node.js",
-        "icon": "https://cdn.simpleicons.org/nodedotjs/339933"
-      },
-      {
-        "name": "MongoDB",
-        "icon": "https://cdn.simpleicons.org/mongodb/47A248"
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
       }
     ],
-    "stats": { "Downloads": "125K+", "Rating": "4.8★", "Users": "50K+" },
-    "colors": ["#00f2ff", "#a855f7", "#ff00ff"]
+    "stats": { "Platform": "iOS & Android", "Category": "Shopping", "Rating": "New" },
+    "colors": ["#ff6b9d", "#c44569", "#f8b500"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/dressifit/id1602004173",
+      "android": "https://play.google.com/store/apps/details?id=com.dressifit"
+    }
   },
   {
     "id": 2,
-    "title": "FoodieHub",
-    "description": "Restaurant discovery and food delivery platform with AR menu preview, real-time order tracking, and personalized recommendations based on dietary preferences.",
-    "mobileScreenshot": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1000&auto=format&fit=crop",
-    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z' /></svg>",
+    "title": "Unique Unlimited",
+    "description": "Luxury transportation service for weddings, proms, concerts, and airport transfers. Features quiet cabin, comfortable seating, and top-tier safety for all occasions.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' /></svg>",
     "techStack": [
       {
-        "name": "Flutter",
-        "icon": "https://cdn.simpleicons.org/flutter/02569B"
-      },
-      {
-        "name": "Firebase",
-        "icon": "https://cdn.simpleicons.org/firebase/FFCA28"
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
       },
       {
         "name": "Google Maps",
         "icon": "https://cdn.simpleicons.org/googlemaps/4285F4"
       },
-      { "name": "Stripe", "icon": "https://cdn.simpleicons.org/stripe/008CDD" }
+      {
+        "name": "Firebase",
+        "icon": "https://cdn.simpleicons.org/firebase/FFCA28"
+      }
     ],
-    "stats": { "Orders": "2M+", "Restaurants": "15K+", "Cities": "50+" },
-    "colors": ["#10b981", "#3b82f6", "#6366f1"]
+    "stats": { "Downloads": "50+", "Category": "Travel & Local", "Rating": "3+" },
+    "colors": ["#1e3799", "#0c2461", "#4a69bd"],
+    "links": {
+      "android": "https://play.google.com/store/apps/details?id=com.blitzapps.uniqueunlimited"
+    }
   },
   {
     "id": 3,
-    "title": "FitTrack Pro",
-    "description": "Comprehensive fitness tracking app with AI-powered workout plans, nutrition guidance, and social challenges. Integrates with all major wearables and health platforms.",
-    "mobileScreenshot": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?q=80&w=1000&auto=format&fit=crop",
-    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z' /></svg>",
+    "title": "Meds - Wellbeing Reminder",
+    "description": "Health and fitness app for medication tracking and wellness reminders. Never miss a dose with intelligent notifications and health monitoring features.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z' /></svg>",
     "techStack": [
-      { "name": "Swift", "icon": "https://cdn.simpleicons.org/swift/F05138" },
       {
-        "name": "HealthKit",
-        "icon": "https://cdn.simpleicons.org/apple/000000"
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
       },
-      { "name": "Core ML", "icon": "https://cdn.simpleicons.org/apple/000000" },
-      { "name": "iCloud", "icon": "https://cdn.simpleicons.org/icloud/3693F3" }
+      {
+        "name": "Notifications",
+        "icon": "https://cdn.simpleicons.org/firebase/FFCA28"
+      }
     ],
-    "stats": { "Workouts": "5M+", "Active": "200K", "Avg Session": "45min" },
-    "colors": ["#ff00ff", "#ec4899", "#f43f5e"]
+    "stats": { "Platform": "Android", "Category": "Health", "Type": "Reminder" },
+    "colors": ["#26de81", "#20bf6b", "#0fb9b1"],
+    "links": {
+      "android": "https://play.google.com/store/apps/details?id=com.blitzapp.imeds"
+    }
   },
   {
     "id": 4,
-    "title": "TravelMate",
-    "description": "Smart travel companion with offline maps, itinerary planning, expense splitting, and real-time translation. Perfect for solo travelers and group adventures.",
-    "mobileScreenshot": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=1000&auto=format&fit=crop",
-    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M13 10V3L4 14h7v7l9-11h-7z' /></svg>",
+    "title": "ICATM",
+    "description": "Inventory management app for tracking stock, managing warehouse operations, and streamlining business inventory with real-time updates.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01' /></svg>",
     "techStack": [
-      { "name": "Kotlin", "icon": "https://cdn.simpleicons.org/kotlin/7F52FF" },
       {
-        "name": "Jetpack Compose",
-        "icon": "https://cdn.simpleicons.org/jetpackcompose/4285F4"
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
       },
-      { "name": "Room", "icon": "https://cdn.simpleicons.org/sqlite/003B57" },
       {
-        "name": "Retrofit",
+        "name": "Database",
+        "icon": "https://cdn.simpleicons.org/sqlite/003B57"
+      }
+    ],
+    "stats": { "Platform": "Android", "Category": "Business", "Type": "Inventory" },
+    "colors": ["#5f27cd", "#341f97", "#8854d0"],
+    "links": {
+      "android": "https://play.google.com/store/apps/details?id=com.blitzapp.ictam"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Humrahi",
+    "description": "Car pooling application by K-Electric for shared rides and commute optimization. Reduce costs and carbon footprint with smart ride matching.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z' /></svg>",
+    "techStack": [
+      {
+        "name": "Web App",
+        "icon": "https://cdn.simpleicons.org/googlechrome/4285F4"
+      },
+      {
+        "name": "React",
+        "icon": "https://cdn.simpleicons.org/react/61DAFB"
+      },
+      {
+        "name": "Maps",
+        "icon": "https://cdn.simpleicons.org/googlemaps/4285F4"
+      }
+    ],
+    "stats": { "Client": "K-Electric", "Type": "Web App", "Category": "Transport" },
+    "colors": ["#eb3b5a", "#fc5c65", "#fd79a8"],
+    "links": {
+      "web": "https://humrahi.ke.com.pk/"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Armario Perfecto",
+    "description": "E-commerce platform for curated fashion collections with virtual wardrobe management and personalized style recommendations.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "Android",
         "icon": "https://cdn.simpleicons.org/android/3DDC84"
       }
     ],
-    "stats": { "Trips": "500K+", "Countries": "195", "Saves": "$2.5M" },
-    "colors": ["#ff6b00", "#f59e0b", "#fbbf24"]
+    "stats": { "Platform": "iOS & Android", "Category": "Shopping", "Type": "Fashion" },
+    "colors": ["#a55eea", "#8854d0", "#5f27cd"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/armario-perfecto/id1601441214",
+      "android": "https://play.google.com/store/apps/details?id=com.armarioperfecto"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Air My Cart",
+    "description": "International parcel forwarding service for seamless cross-border shopping. Shop from any country and get items delivered to your doorstep.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z' /></svg>",
+    "techStack": [
+      {
+        "name": "Web App",
+        "icon": "https://cdn.simpleicons.org/googlechrome/4285F4"
+      },
+      {
+        "name": "E-commerce",
+        "icon": "https://cdn.simpleicons.org/shopify/7AB55C"
+      }
+    ],
+    "stats": { "Service": "Parcel Forwarding", "Type": "Web App", "Global": "Yes" },
+    "colors": ["#fa8231", "#f39c12", "#e67e22"],
+    "links": {
+      "web": "https://www.airmycart.com/"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Ewesbay",
+    "description": "E-commerce marketplace with diverse product categories, secure payments, and fast delivery. Your one-stop shop for online shopping.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
+      }
+    ],
+    "stats": { "Platform": "iOS & Android", "Category": "Shopping", "Type": "Marketplace" },
+    "colors": ["#00d2d3", "#01a3a4", "#2bcbba"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/ewesbay/id6447753557",
+      "android": "https://play.google.com/store/apps/details?id=com.blitzmobileapps.ewesbay"
+    }
+  },
+  {
+    "id": 9,
+    "title": "League 4 Us",
+    "description": "Event management platform for organizing sports leagues, tournaments, and team activities with scheduling and score tracking.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "iPad",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      }
+    ],
+    "stats": { "Platform": "iOS", "Category": "Sports", "Type": "League Mgmt" },
+    "colors": ["#45aaf2", "#2e86de", "#1e3799"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/league-4-us/id6449748693"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Superior Run",
+    "description": "Health and fitness app for runners with GPS tracking, workout plans, and performance analytics. Track your runs and achieve your fitness goals.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M13 10V3L4 14h7v7l9-11h-7z' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "HealthKit",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      }
+    ],
+    "stats": { "Platform": "iOS", "Category": "Health", "Type": "Running" },
+    "colors": ["#ee5a6f", "#e74c3c", "#c0392b"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/superior-run/id1608022606"
+    }
+  },
+  {
+    "id": 11,
+    "title": "Go Connect",
+    "description": "Finance app for digital payments and money transfers with secure transactions and instant processing.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
+      }
+    ],
+    "stats": { "Platform": "iOS & Android", "Category": "Finance", "Type": "Payments" },
+    "colors": ["#4b6584", "#778ca3", "#a5b1c2"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/go-connect/id1672917256",
+      "android": "https://play.google.com/store/apps/details?id=com.makglobalps.gocash"
+    }
+  },
+  {
+    "id": 12,
+    "title": "Purefit",
+    "description": "Comprehensive fitness tracking app with workout routines, nutrition plans, and progress monitoring for achieving optimal health.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z' /></svg>",
+    "techStack": [
+      {
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
+      },
+      {
+        "name": "Fitness",
+        "icon": "https://cdn.simpleicons.org/fitbit/00B0B9"
+      }
+    ],
+    "stats": { "Platform": "Android", "Category": "Health", "Type": "Fitness" },
+    "colors": ["#6c5ce7", "#a29bfe", "#fd79a8"],
+    "links": {
+      "android": "https://play.google.com/store/apps/details?id=com.purefit"
+    }
+  },
+  {
+    "id": 13,
+    "title": "Nogodi",
+    "description": "On-demand service app connecting customers with local service providers for home services, repairs, and maintenance.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
+      }
+    ],
+    "stats": { "Platform": "iOS & Android", "Category": "Services", "Type": "On-Demand" },
+    "colors": ["#f39c12", "#e67e22", "#d35400"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/nogodi/id1470884796",
+      "android": "https://play.google.com/store/apps/details?id=com.nogodi.customer"
+    }
+  },
+  {
+    "id": 14,
+    "title": "Harakatu",
+    "description": "Two-sided marketplace platform with vendor and user apps for seamless service delivery and order management.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
+      },
+      {
+        "name": "Dual App",
+        "icon": "https://cdn.simpleicons.org/react/61DAFB"
+      }
+    ],
+    "stats": { "Platform": "iOS & Android", "Type": "Marketplace", "Apps": "Vendor + User" },
+    "colors": ["#ff6348", "#ff4757", "#ee5a6f"],
+    "links": {
+      "vendorIos": "https://apps.apple.com/us/app/harakatu-vendor/id1551323711",
+      "vendorAndroid": "https://play.google.com/store/apps/details?id=com.blitzapp.harakatuvendor",
+      "userIos": "https://apps.apple.com/us/app/harakatu-user/id1550270813",
+      "userAndroid": "https://play.google.com/store/apps/details?id=com.blitzapp.harakatuuser"
+    }
+  },
+  {
+    "id": 15,
+    "title": "Dal Pet Adopt",
+    "description": "Animal adoption platform connecting pet lovers with animals in need of homes. Browse, adopt, and save lives.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
+      }
+    ],
+    "stats": { "Platform": "iOS & Android", "Category": "Lifestyle", "Type": "Pet Adoption" },
+    "colors": ["#e74c3c", "#c0392b", "#e84393"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/dale-pet-adoption/id1642689821",
+      "android": "https://play.google.com/store/apps/details?id=com.blitzapp.animaladoption.android"
+    }
+  },
+  {
+    "id": 16,
+    "title": "Dal Wheels",
+    "description": "Car rental and vehicle booking platform for convenient transportation. Rent vehicles by the hour, day, or week.",
+    "mobileScreenshot": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=1000&auto=format&fit=crop",
+    "projectIcon": "<svg viewBox='0 0 24 24' fill='none' class='bg-icon-svg' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='1' d='M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4' /></svg>",
+    "techStack": [
+      {
+        "name": "iOS",
+        "icon": "https://cdn.simpleicons.org/apple/000000"
+      },
+      {
+        "name": "Android",
+        "icon": "https://cdn.simpleicons.org/android/3DDC84"
+      }
+    ],
+    "stats": { "Platform": "iOS & Android", "Category": "Travel", "Type": "Car Rental" },
+    "colors": ["#00b894", "#00cec9", "#0984e3"],
+    "links": {
+      "ios": "https://apps.apple.com/pk/app/dalwheels/id1662803950",
+      "android": "https://play.google.com/store/apps/details?id=com.blitz.dalwheels"
+    }
   }
 ]
