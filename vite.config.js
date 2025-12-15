@@ -10,7 +10,7 @@ export default defineConfig({
   // Change '/Ashhar-Portfolio/' to match your repository name
   base: process.env.GITHUB_REPOSITORY
     ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}/`
-    : "/Ashhar-Portfolio/",
+    : "/",
   server: {
     port: 3000,
     open: true,
