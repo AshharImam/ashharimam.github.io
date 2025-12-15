@@ -8,12 +8,8 @@ const __dirname = fileURLToPath(new URL(".", import.meta.url));
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Base path for GitHub Pages
-  // Automatically detects repo name from GitHub Actions
-  // Fallback to '/' for Vercel/local
-  base: process.env.GITHUB_REPOSITORY
-    ? `/${process.env.GITHUB_REPOSITORY.split("/")[1]}/`
-    : "/",
+  // Use root path for Vercel deployment
+  base: "/",
   server: {
     port: 3000,
     open: true,
