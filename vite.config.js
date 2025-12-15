@@ -1,11 +1,13 @@
-import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { resolve } from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  root: fileURLToPath(new URL(".", import.meta.url)),
   // Base path for GitHub Pages
   // Automatically detects repo name from GitHub Actions
   // Fallback to '/' for Vercel/local
@@ -22,6 +24,7 @@ export default defineConfig({
     sourcemap: false,
     minify: "esbuild",
     rollupOptions: {
+      input: resolve(__dirname, "index.html"),
       output: {
         manualChunks: {
           "react-vendor": ["react", "react-dom"],
