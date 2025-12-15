@@ -1,0 +1,80 @@
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-height: 90vh;
+  z-index: 2;
+  position: relative;
+  gap: 24px;
+}
+
+/* Mobile layout adjustments */
+@media (max-width: 767px) {
+  .project-card.mobile {
+    height: 100vh;
+    max-height: 100vh;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.project-mockup {
+  flex: 0 0 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* Mobile mockup adjustments */
+@media (max-width: 767px) {
+  .project-card.mobile .project-mockup {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .project-card {
+    flex-direction: row;
+    align-items: center;
+    max-width: var(--container-max-width);
+    gap: 40px;
+    padding: 0 30px;
+  }
+  
+  .project-mockup {
+    flex: 0 0 35%;
+  }
+}
+
+/* Desktop Media Queries */
+@media (min-width: 1024px) {
+  .project-card {
+    flex-direction: row;
+    align-items: center;
+    max-width: var(--container-max-width);
+    gap: 60px;
+    padding: 0 40px;
+  }
+
+  .project-mockup {
+    flex: 0 0 30%;
+    height: 80%;
+  }
+}
+

@@ -1,0 +1,79 @@
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  touch-action: manipulation;
+  border: none;
+  
+  /* Liquid Glass Effect */
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.05),
+    inset 0 0 5px rgba(255, 255, 255, 0.1), 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-prev {
+  left: 5%;
+}
+
+.nav-next {
+  right: 5%;
+}
+
+.nav-arrow svg {
+  width: 24px;
+  height: 24px;
+  stroke: #ffffff;
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.6));
+}
+
+/* Mobile navigation arrows */
+@media (max-width: 767px) {
+  .nav-arrow {
+    width: 48px;
+    height: 48px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+  
+  .nav-prev {
+    left: 2%;
+  }
+  
+  .nav-next {
+    right: 2%;
+  }
+  
+  .nav-arrow svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav-arrow {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Desktop adjustments */
+@media (min-width: 1024px) {
+  .nav-arrow {
+    width: 80px;
+    height: 80px;
+  }
+}
+

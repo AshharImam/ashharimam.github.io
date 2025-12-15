@@ -1,0 +1,22 @@
+# Files to ignore when deploying to Vercel
+node_modules
+.git
+.vscode
+.idea
+*.log
+.env.local
+.env.*.local
+dist
+.DS_Store
+
+# Old vanilla JS files (if not deleted yet)
+index.html
+script.js
+styles.css
+assets/
+projects.json
+
+# Documentation (optional - remove if you want to deploy docs)
+*.md
+!README.md
+

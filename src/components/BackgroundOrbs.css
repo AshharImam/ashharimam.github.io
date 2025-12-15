@@ -1,0 +1,77 @@
+.bg-orb {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.4;
+  z-index: 0;
+  pointer-events: none;
+  transition: --orb-c1 1s ease, --orb-c2 1s ease, --orb-c3 1s ease;
+}
+
+.orb-1 {
+  top: 50%;
+  left: 20%;
+  width: 900px;
+  height: 900px;
+  transform: translate(-50%, -50%);
+  animation: orb-float 25s infinite alternate ease-in-out;
+}
+
+.orb-2 {
+  top: 20%;
+  right: 5%;
+  width: 800px;
+  height: 800px;
+  transform: translate(50%, -50%);
+  animation: orb-float-2 30s infinite alternate-reverse ease-in-out;
+  opacity: 0.4;
+}
+
+/* Optimize orbs for mobile */
+@media (max-width: 767px) {
+  .orb-1 {
+    width: 400px;
+    height: 400px;
+    left: 10%;
+    filter: blur(80px);
+  }
+  
+  .orb-2 {
+    width: 350px;
+    height: 350px;
+    right: 0%;
+    filter: blur(80px);
+  }
+}
+
+/* Animations */
+@keyframes orb-float {
+  0% {
+    transform: translate(-50%, -50%) translate(-30px, -30px) scale(0.9);
+  }
+  33% {
+    transform: translate(-50%, -50%) translate(50px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-50%, -50%) translate(-20px, 40px) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) translate(-50px, -30px) scale(0.95);
+  }
+}
+
+@keyframes orb-float-2 {
+  0% {
+    transform: translate(50%, -50%) translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(50%, -50%) translate(-40px, 40px) scale(1.1);
+  }
+  66% {
+    transform: translate(50%, -50%) translate(20px, -60px) scale(0.9);
+  }
+  100% {
+    transform: translate(50%, -50%) translate(0, 0) scale(1);
+  }
+}
+
